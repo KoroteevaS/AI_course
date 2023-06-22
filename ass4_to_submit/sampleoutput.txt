@@ -1,0 +1,14 @@
+Best VRP Distance: 787.8082774366646
+\\wlgprdfile02\home$\korotesv\home\AICourse\assignment4\vrp-code\utility.py:113: UserWarning: color is redundantly defined by the 'color' keyword argument and the fmt string "co" (-> color='c'). The keyword argument will take precedence.
+  plt.plot(px[a_route[i]], py[a_route[i]], 'co', markersize=5, color=cmap(k))
+\\wlgprdfile02\home$\korotesv\home\AICourse\assignment4\vrp-code\utility.py:115: UserWarning: color is redundantly defined by the 'color' keyword argument and the fmt string "co" (-> color='c'). The keyword argument will take precedence.
+  plt.plot(px[a_route[-1]], py[a_route[-1]], 'co', markersize=5, color=cmap(k))
+Summary
+[90.0, 94.0, 80.0, 89.0, 57.0]
+[[0, 30, 26, 16, 12, 1, 7, 0], [0, 24, 14, 27, 20, 5, 29, 15, 10, 0], [0, 13, 21, 31, 19, 17, 0], [0, 6, 3, 2, 23, 28, 8, 18, 22, 9, 0], [0, 25, 11, 4, 0]]
+Nearest Neighbour VRP Heuristic Distance: 991.6705767881119
+Summary
+[97.0, 99.0, 93.0, 77.0, 44.0]
+[[0, 18, 28, 4, 11, 8, 9, 22, 15, 0], [0, 23, 2, 3, 17, 19, 31, 21, 0], [0, 7, 13, 6, 29, 10, 25, 5, 20, 0], [0, 14, 30, 26, 16, 1, 12, 0], [0, 24, 27, 0]]
+Saving VRP Heuristic Distance: 896.9186943468951
+>>> 
