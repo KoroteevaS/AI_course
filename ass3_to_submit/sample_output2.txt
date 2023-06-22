@@ -1,0 +1,85 @@
+H:\AICourse\assignment3\to_submit>python a3Part2.py crosfoldtraining.dat crosfoldtest.dat
+Number of spam in training set is  44
+Number of non spam in traing set is  143
+Probability of spam in training set  - 0.23529411764705882
+Probability of non spam in training set  - 0.7647058823529411
+Training process
+Feature 0 : Probabilities for spam, if true =  0.66 , if false =  0.36 , for non spam, if true =  0.37 , for non spam, if false = 0.64
+Feature 1 : Probabilities for spam, if true =  0.61 , if false =  0.41 , for non spam, if true =  0.57 , for non spam, if false = 0.43
+Feature 2 : Probabilities for spam, if true =  0.45 , if false =  0.57 , for non spam, if true =  0.34 , for non spam, if false = 0.67
+Feature 3 : Probabilities for spam, if true =  0.61 , if false =  0.41 , for non spam, if true =  0.41 , for non spam, if false = 0.59
+Feature 4 : Probabilities for spam, if true =  0.45 , if false =  0.57 , for non spam, if true =  0.35 , for non spam, if false = 0.66
+Feature 5 : Probabilities for spam, if true =  0.34 , if false =  0.68 , for non spam, if true =  0.46 , for non spam, if false = 0.55
+Feature 6 : Probabilities for spam, if true =  0.75 , if false =  0.27 , for non spam, if true =  0.5 , for non spam, if false = 0.5
+Feature 7 : Probabilities for spam, if true =  0.73 , if false =  0.3 , for non spam, if true =  0.36 , for non spam, if false = 0.65
+Feature 8 : Probabilities for spam, if true =  0.34 , if false =  0.68 , for non spam, if true =  0.23 , for non spam, if false = 0.78
+Feature 9 : Probabilities for spam, if true =  0.68 , if false =  0.34 , for non spam, if true =  0.29 , for non spam, if false = 0.71
+Feature 10 : Probabilities for spam, if true =  0.7 , if false =  0.32 , for non spam, if true =  0.59 , for non spam, if false = 0.42
+Feature 11 : Probabilities for spam, if true =  0.82 , if false =  0.2 , for non spam, if true =  0.34 , for non spam, if false = 0.66
+##################################################
+Instance  0
+Probability of spam for [1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1] is 0.00011313095443474567
+Probability of non spam for [1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1] is 7.380193218466126e-05
+Result: SPAM
+REAL CLASS  1
+##################################################
+Instance  1
+Probability of spam for [1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1] is 6.893917535867314e-05
+Probability of non spam for [1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1] is 2.3180078029470013e-05
+Result: SPAM
+REAL CLASS  1
+##################################################
+Instance  2
+Probability of spam for [1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0] is 2.2979725119557712e-05
+Probability of non spam for [1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0] is 0.000217780189719031
+Result: NON SPAM
+REAL CLASS  0
+##################################################
+Instance  3
+Probability of spam for [1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1] is 0.0003053020623026953
+Probability of non spam for [1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1] is 0.00031329503809417576
+Result: NON SPAM
+REAL CLASS  1
+##################################################
+Instance  4
+Probability of spam for [1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1] is 0.0009393909609313705
+Probability of non spam for [1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1] is 3.954018283741315e-05
+Result: SPAM
+REAL CLASS  1
+##################################################
+Instance  5
+Probability of spam for [1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0] is 0.0002505042562483654
+Probability of non spam for [1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0] is 9.74816965219857e-05
+Result: SPAM
+REAL CLASS  0
+##################################################
+Instance  6
+Probability of spam for [1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1] is 4.9341747442859864e-05
+Probability of non spam for [1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1] is 3.927047923393346e-05
+Result: SPAM
+REAL CLASS  1
+##################################################
+Instance  7
+Probability of spam for [0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0] is 6.805758267980671e-06
+Probability of non spam for [0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0] is 0.00037206397441314333
+Result: NON SPAM
+REAL CLASS  0
+##################################################
+Instance  8
+Probability of spam for [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0] is 1.914977093296477e-05
+Probability of non spam for [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0] is 0.0008884962654286828
+Result: NON SPAM
+REAL CLASS  0
+##################################################
+Instance  9
+Probability of spam for [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0] is 4.606974827556145e-05
+Probability of non spam for [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0] is 0.0006229863675895942
+Result: NON SPAM
+REAL CLASS  0
+##################################################
+Instance  10
+Probability of spam for [0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0] is 9.45713307709473e-06
+Probability of non spam for [0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0] is 0.0002914786896324165
+Result: NON SPAM
+REAL CLASS  0
+Accuracy =  0.8181818181818182

@@ -1,0 +1,63 @@
+H:\AICourse\assignment1\assign1_to_submit\part3>python assign1-3_1.py image.data
+The program applies the perception algorithm upon the table from assignment1 part 3.1.
+                The data image.data set.
+                Number of iterations is 100 by default. Number of features is 50 by defaul. Learning rate is = 0.1 by default
+                Weights initially set as 0s lists by default. It is not printing_images by default.
+                To change them use the following command python. Order of parameters should be the same.
+                _______________________________________________________________________________________________________
+                   python assign1-3_2_1.py image.data <your number of iterations> <your number of features><your learning rate>  f p
+                ________________________________________________________________________________________________________
+
+                Example:
+                        python assign1-3_1.py image.data 10 60 0.01 f p
+
+
+--------------------program starts --------------------------------
+100
+100
+Wrong number: 0
+Stopped increasing on 19
+Number of iterations - 20, number of features - 50, learning_rate - 0.1, weights as zeros - True, print images False
+
+H:\AICourse\assignment1\assign1_to_submit\part3>python assign1-3_1.py image.data 20 50 0.1 f
+
+.....
+
+    XXXX
+   XX  XX
+  XX    XX
+  X      X
+  XX    XX
+   XX  XX
+    XXXX
+  XXX
+XXX XXXX
+X       XX
+X        X
+X        X
+X        X
+X        X
+X        X
+XXX    XX
+  XXXXXX
+
+
+.....
+
+H:\AICourse\assignment1\assign1_to_submit\part3>python assign1-3_1.py image.data 10 50 0.1 f f rout
+--------------------program starts --------------------------------
+51
+78
+93
+100
+100
+100
+100
+100
+100
+100
+Wrong number: 0
+Stopped increasing on 4
+Number of iterations - 10, number of features - 50, learning_rate - 0.1, weights as zeros - False, print images False
+
+
